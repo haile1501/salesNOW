@@ -42,8 +42,7 @@ const customStyles = {
 };
 
 function Dashboard() {
-	console.log("hehe");
-	return <DefaultLayout>home</DefaultLayout>;
+	return <Box>home</Box>;
 }
 
 export default Dashboard;
