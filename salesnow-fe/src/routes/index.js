@@ -1,3 +1,4 @@
+import StaffList from "../StaffList";
 import routesConfig from "../config/routes";
 import Forbiden403 from "../pages/Forbiden403/Forbiden403";
 
@@ -15,6 +16,11 @@ const privateRoutes = [
 	{ path: routesConfig.home, component: Home, title: "Overall" },
 	{ path: routesConfig.notfound404, component: NotFound404, title: "" },
 	{ path: routesConfig.forbiden403, component: Forbiden403, title: "" },
+	{
+		path: routesConfig.staffList,
+		component: StaffList,
+		title: "Staff Management",
+	},
 ];
 
 export { publicRoutes, privateRoutes };
