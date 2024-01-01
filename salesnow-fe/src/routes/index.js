@@ -49,7 +49,6 @@ import NotFound404 from "../pages/NotFound404/NotFound404";
 const publicRoutes = [];
 
 const privateRoutes = [
-  { path: routesConfig.home, component: Home, title: "Tổng quan" },
   { path: routesConfig.salesCounter, component: SalesCounter, layout: null },
   {
     path: routesConfig.customerDetail,
@@ -230,6 +229,7 @@ const privateRoutes = [
   { path: routesConfig.shopInfo, component: Shop, title: "Thông tin cửa hàng" },
   { path: routesConfig.notfound404, component: NotFound404, title: "" },
   { path: routesConfig.forbiden403, component: Forbiden403, title: "" },
+  { path: routesConfig.home, component: Home, title: "Tổng quan" },
 ];
 
 export { publicRoutes, privateRoutes };
