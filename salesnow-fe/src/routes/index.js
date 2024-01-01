@@ -1,3 +1,4 @@
+import StaffList from "../StaffList";
 import routesConfig from "../config/routes";
 import Forbiden403 from "../pages/Forbiden403/Forbiden403";
 
