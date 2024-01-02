@@ -231,6 +231,11 @@ const privateRoutes = [
     component: StaffCreate,
     title: "Thêm mới nhân viên",
   },
+  {
+    path: routesConfig.salesCounter,
+    component: SalesCounter,
+    title: "Phản hồi của khách hàng",
+  },
   { path: routesConfig.shopInfo, component: Shop, title: "Thông tin cửa hàng" },
   { path: routesConfig.notfound404, component: NotFound404, title: "" },
   { path: routesConfig.forbiden403, component: Forbiden403, title: "" },
