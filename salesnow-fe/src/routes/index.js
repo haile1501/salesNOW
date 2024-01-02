@@ -42,12 +42,16 @@ import StaffDetail from "../pages/StaffDetail";
 import Shop from "../pages/Shop/Shop";
 import StaffCreate from "../pages/StaffCreate";
 import NotFound404 from "../pages/NotFound404/NotFound404";
+import Login from "../pages/Login/Login";
 
 //import layout
 
 //public route
 
-const publicRoutes = [];
+const publicRoutes = [
+  { path: routesConfig.login, component: Login, title: "Login" },
+  { path: routesConfig.signup, component: Signup, title: "Signup" },
+];
 
 const privateRoutes = [
   { path: routesConfig.salesCounter, component: SalesCounter, layout: null },
