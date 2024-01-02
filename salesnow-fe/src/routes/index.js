@@ -50,6 +50,7 @@ import Login from "../pages/Login/Login";
 
 const publicRoutes = [
   { path: routesConfig.login, component: Login, title: "Login" },
+  { path: routesConfig.signup, component: Signup, title: "Signup" },
 ];
 
 const privateRoutes = [
